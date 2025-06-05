@@ -298,6 +298,10 @@ int main()
                 }
                 cout<<"Enter the dimension of the matrix(row x column): ";
                 cin>>size_mat_row>>size_mat_col;
+                cout<<endl<<endl<<"S - Starting Cell"<<endl;
+                cout<<"E - Ending Cell"<<endl;
+                cout<<". - Movable Cell"<<endl;
+                cout<<"# - Wall"<<endl<<endl;
                 for(int i=0;i<size_mat_row;i++)
                 {
                     cout<<"Enter row "<<i+1<<" for the maze: ";
